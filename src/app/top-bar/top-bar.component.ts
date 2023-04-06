@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  selector: 'app-top-bar',
+  templateUrl: './top-bar.component.html',
+  styleUrls: ['./top-bar.component.css']
 })
-export class AppComponent {
-  title = 'angProject';
+export class TopBarComponent {
+
 }
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
